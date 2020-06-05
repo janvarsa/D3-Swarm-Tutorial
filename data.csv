@@ -1,0 +1,504 @@
+Ticker,Return,Market Cap,Sector
+MSFT,0.1637,1381.23,Technology
+AAPL,0.086,1326.70,Technology
+AMZN,0.3188,998.09,Consumer Cyclical
+FB,0.1445,541.53,Communication Services
+GOOG,0.0549,846.79,Communication Services
+JNJ,-0.0103,386.07,Healthcare
+BRK-B,-0.2277,361.37,Financial
+V,0.0158,331.91,Financial
+JPM,-0.3582,312.61,Financial
+PG,-0.0985,288.88,Consumer Defensive
+INTC,0.0402,267.88,Technology
+UNH,-0.0137,287.44,Healthcare
+MA,-0.0123,267.85,Financial
+HD,-0.0123,266.90,Consumer Cyclical
+VZ,-0.1189,230.01,Communication Services
+NVDA,0.5344,207.37,Technology
+T,-0.2354,226.46,Communication Services
+DIS,-0.184,210.03,Communication Services
+PFE,-0.0429,210.89,Healthcare
+NFLX,0.3268,180.85,Communication Services
+MRK,-0.1603,200.85,Healthcare
+CSCO,-0.0638,193.06,Technology
+XOM,-0.3608,190.21,Energy
+ADBE,0.1681,183.52,Technology
+BAC,-0.3566,200.87,Financial
+PEP,-0.0453,184.12,Consumer Defensive
+WMT,0.0462,175.13,Consumer Defensive
+CMCSA,-0.1385,179.21,Communication Services
+PYPL,0.3947,174.38,Financial
+KO,-0.1864,181.24,Consumer Defensive
+CVX,-0.2509,171.50,Energy
+ABBV,0.0402,158.43,Healthcare
+ABT,0.0531,162.47,Healthcare
+CRM,0.0935,160.42,Technology
+BMY,-0.053,140.01,Healthcare
+MCD,-0.0668,141.86,Consumer Cyclical
+TMO,0.0474,137.25,Healthcare
+AMGN,-0.0607,132.99,Healthcare
+COST,0.029,136.57,Consumer Defensive
+MDT,-0.1651,131.30,Healthcare
+LLY,0.1501,127.05,Healthcare
+ACN,-0.0801,127.83,Technology
+NKE,-0.0746,122.45,Consumer Cyclical
+UNP,-0.0865,118.14,Industrials
+ORCL,-0.0068,115.94,Technology
+NEE,-0.0343,122.63,Utilities
+AVGO,-0.1246,112.10,Technology
+TXN,-0.1158,108.11,Technology
+PM,-0.1721,114.16,Consumer Defensive
+IBM,-0.1168,110.08,Technology
+LIN,-0.1035,107.25,Basic Materials
+AMT,0.0549,114.12,Real Estate
+DHR,0.0311,103.06,Healthcare
+C,-0.448,107.12,Financial
+HON,-0.2137,105.24,Industrials
+WFC,-0.5507,104.56,Financial
+GILD,0.1287,95.16,Healthcare
+QCOM,-0.108,89.02,Technology
+SBUX,-0.1172,92.65,Consumer Cyclical
+LMT,-0.0523,98.77,Industrials
+LOW,0.0208,98.02,Consumer Cyclical
+MMM,-0.1699,90.06,Industrials
+FIS,-0.0211,84.94,Technology
+RTX,-0.3625,98.29,Industrials
+CVS,-0.1475,86.49,Healthcare
+CHTR,0.0574,83.73,Communication Services
+BLK,0.0211,81.74,Financial
+SPGI,0.1421,77.77,Financial
+INTU,0.098,73.72,Technology
+NOW,0.3742,71.20,Technology
+VRTX,0.3015,71.24,Healthcare
+MDLZ,-0.0977,73.92,Consumer Defensive
+BA,-0.5778,80.01,Industrials
+ANTM,-0.0825,73.79,Healthcare
+MO,-0.244,72.42,Consumer Defensive
+CI,-0.0757,74.81,Healthcare
+UPS,-0.1738,69.80,Industrials
+BKNG,-0.2057,68.94,Consumer Cyclical
+AMD,0.203,60.45,Technology
+BDX,-0.1203,71.11,Healthcare
+D,-0.0279,68.80,Utilities
+CME,-0.1092,64.59,Financial
+PLD,-0.0178,68.61,Real Estate
+ISRG,-0.048,66.07,Healthcare
+CAT,-0.2384,66.68,Industrials
+ZTS,-0.0169,65.66,Healthcare
+CCI,0.0988,70.09,Real Estate
+TJX,-0.1253,65.46,Consumer Cyclical
+SYK,-0.1229,62.86,Healthcare
+AXP,-0.2824,65.67,Financial
+DUK,-0.0875,62.49,Utilities
+TGT,-0.0836,59.94,Consumer Defensive
+FISV,-0.1012,60.61,Technology
+CL,0.0277,61.67,Consumer Defensive
+ADP,-0.209,62.58,Industrials
+EQIX,0.1479,61.05,Real Estate
+GS,-0.2175,64.00,Financial
+SO,-0.1432,59.64,Utilities
+ATVI,0.2299,53.76,Communication Services
+GE,-0.4256,59.10,Industrials
+BIIB,0.0263,54.15,Healthcare
+GPN,-0.0318,53.40,Industrials
+NEM,0.4511,47.95,Basic Materials
+CSX,-0.0529,55.38,Industrials
+APD,-0.0027,53.03,Basic Materials
+ILMN,0.0692,54.81,Healthcare
+AMAT,-0.1089,50.43,Technology
+MMC,-0.062,53.73,Financial
+ICE,0.0132,52.77,Financial
+BSX,-0.2059,52.20,Healthcare
+HUM,0.0761,53.45,Healthcare
+MU,-0.1644,51.42,Technology
+ECL,0.0389,52.93,Basic Materials
+NOC,-0.0525,53.65,Industrials
+COP,-0.3345,47.17,Energy
+ITW,-0.0884,50.51,Industrials
+MS,-0.215,51.61,Financial
+CB,-0.2484,56.00,Financial
+USB,-0.4446,51.87,Financial
+KMB,0.0159,48.24,Consumer Defensive
+SHW,-0.0107,48.38,Basic Materials
+REGN,0.5178,58.09,Healthcare
+EW,-0.0621,46.14,Healthcare
+AON,-0.0784,46.47,Financial
+PNC,-0.3447,50.72,Financial
+DG,0.1475,46.82,Consumer Defensive
+TFC,-0.4089,51.10,Financial
+NSC,-0.1167,46.95,Industrials
+DE,-0.1879,48.14,Industrials
+BAX,0.0396,44.94,Healthcare
+PGR,0.0322,44.76,Financial
+ADSK,0.0672,44.49,Technology
+ADI,-0.0655,40.82,Technology
+MCO,0.0818,42.94,Financial
+EL,-0.1372,42.79,Consumer Defensive
+LHX,-0.088,43.44,Industrials
+LRCX,-0.1069,38.57,Technology
+WM,-0.132,41.49,Industrials
+SCHW,-0.3097,41.12,Financial
+AEP,-0.1664,41.99,Utilities
+ROP,0.0362,39.61,Industrials
+CNC,0.0313,38.88,Healthcare
+TMUS,0.2216,37.43,Communication Services
+GIS,0.1195,37.37,Consumer Defensive
+DXCM,0.8527,32.98,Healthcare
+DD,-0.2416,37.36,Basic Materials
+EXC,-0.1917,37.13,Utilities
+EA,0.1145,35.38,Communication Services
+DLR,0.1342,38.34,Real Estate
+PSX,-0.3137,34.86,Energy
+SRE,-0.1827,35.87,Utilities
+EMR,-0.2674,37.13,Industrials
+ROST,-0.1936,35.50,Consumer Cyclical
+EBAY,0.2033,33.78,Consumer Cyclical
+ETN,-0.1694,35.15,Industrials
+GD,-0.2142,34.75,Industrials
+GM,-0.2902,33.53,Consumer Cyclical
+SBAC,0.2032,34.94,Real Estate
+XEL,-0.0491,33.58,Utilities
+ALL,-0.1568,31.79,Financial
+ORLY,-0.0759,31.22,Consumer Cyclical
+EOG,-0.3758,30.01,Energy
+KMI,-0.2721,30.43,Energy
+WBA,-0.3284,31.32,Healthcare
+BK,-0.3145,31.51,Financial
+MSCI,0.309,27.35,Financial
+CTSH,-0.1704,29.35,Technology
+STZ,-0.0919,29.31,Consumer Defensive
+COF,-0.4149,31.86,Financial
+HCA,-0.2782,29.01,Healthcare
+KLAC,-0.029,27.58,Technology
+FDX,-0.2262,31.30,Industrials
+VLO,-0.2987,27.51,Energy
+PSA,-0.1244,30.02,Real Estate
+WEC,-0.066,27.89,Utilities
+INFO,-0.1107,27.73,Industrials
+APH,-0.161,28.23,Technology
+DOW,-0.34,28.67,Basic Materials
+TROW,-0.0554,28.22,Financial
+SYY,-0.395,28.49,Consumer Defensive
+YUM,-0.1338,27.51,Consumer Cyclical
+AZO,-0.0574,27.31,Consumer Cyclical
+MNST,0.0812,27.00,Consumer Defensive
+CMG,0.2611,25.40,Consumer Cyclical
+IQV,-0.0751,26.33,Healthcare
+TEL,-0.2046,27.72,Technology
+ZBH,-0.1756,26.29,Healthcare
+VRSK,0.0532,27.45,Industrials
+WLTW,-0.017,26.40,Financial
+MET,-0.3459,28.46,Financial
+KR,0.1166,25.61,Consumer Defensive
+ES,-0.0777,26.21,Utilities
+CLX,0.2934,25.69,Consumer Defensive
+HPQ,-0.1727,22.25,Technology
+AFL,-0.344,26.84,Financial
+IDXX,0.1286,26.22,Healthcare
+A,-0.0039,26.84,Healthcare
+SLB,-0.5627,25.98,Energy
+MAR,-0.3987,24.82,Consumer Cyclical
+TWTR,0.0178,24.43,Communication Services
+CMI,-0.1337,25.98,Industrials
+CDNS,0.2406,24.74,Technology
+TRV,-0.2691,27.80,Financial
+SNPS,0.2292,25.89,Technology
+PEG,-0.1851,25.64,Utilities
+AIG,-0.4372,26.99,Financial
+MPC,-0.4096,22.81,Energy
+ROK,-0.0024,24.96,Industrials
+MSI,-0.1672,23.25,Technology
+PCAR,-0.135,25.46,Industrials
+WMB,-0.1716,24.03,Energy
+MCK,0.0802,25.32,Healthcare
+ED,-0.2243,24.30,Utilities
+ANSS,0.0484,23.51,Technology
+RMD,0.0412,22.63,Healthcare
+ALXN,-0.0615,25.34,Healthcare
+PRU,-0.3996,24.86,Financial
+PPG,-0.2795,24.22,Basic Materials
+XLNX,-0.1144,22.44,Technology
+VRSN,0.1092,22.01,Technology
+FAST,0.0468,23.00,Industrials
+JCI,-0.2746,24.29,Industrials
+HLT,-0.2932,22.70,Consumer Cyclical
+MCHP,-0.1615,22.76,Technology
+FE,-0.1638,23.06,Utilities
+AVB,-0.2672,22.16,Real Estate
+AWK,-0.0174,22.26,Utilities
+OTIS,0.1428,20.63,Industrials
+PH,-0.1892,22.92,Industrials
+PAYX,-0.2055,22.94,Industrials
+F,-0.3925,22.81,Consumer Cyclical
+CERN,-0.0833,22.29,Healthcare
+STT,-0.3006,22.67,Financial
+MKC,0.0126,21.03,Consumer Defensive
+BLL,-0.0025,23.11,Consumer Cyclical
+FLT,-0.1685,21.26,Technology
+FTNT,0.3361,19.12,Technology
+EQR,-0.2907,21.22,Real Estate
+EIX,-0.2517,20.77,Utilities
+SWKS,-0.0319,19.70,Technology
+CTAS,-0.1057,20.90,Industrials
+DTE,-0.2137,20.66,Utilities
+ADM,-0.2367,21.75,Consumer Defensive
+PPL,-0.2851,21.09,Utilities
+HSY,-0.1138,20.14,Consumer Defensive
+ETR,-0.1823,20.50,Utilities
+KEYS,-0.0056,19.37,Technology
+AME,-0.1388,20.80,Industrials
+SWK,-0.267,19.10,Industrials
+TT,-0.3729,21.66,Industrials
+DLTR,-0.1313,23.11,Consumer Defensive
+CTVA,-0.1698,20.17,Basic Materials
+KHC,-0.0678,18.82,Consumer Defensive
+BBY,-0.1239,17.43,Consumer Cyclical
+WELL,-0.4153,20.78,Real Estate
+APTV,-0.243,18.77,Consumer Cyclical
+VFC,-0.4417,19.29,Consumer Cyclical
+TDG,-0.32,21.41,Industrials
+MKTX,0.2722,18.21,Financial
+EFX,0.0493,18.51,Industrials
+ARE,-0.0903,19.03,Real Estate
+MTD,-0.0567,19.29,Healthcare
+TSN,-0.3498,18.47,Consumer Defensive
+CPRT,-0.0516,18.27,Industrials
+O,-0.2917,19.12,Real Estate
+CHD,0.0226,18.10,Consumer Defensive
+DHI,0.0248,18.78,Consumer Cyclical
+FTV,-0.2338,18.14,Technology
+INCY,0.138,17.76,Healthcare
+RSG,-0.0949,17.86,Industrials
+SPG,-0.6335,18.36,Real Estate
+AEE,-0.0909,17.98,Utilities
+LVS,-0.3207,16.42,Consumer Cyclical
+ALGN,-0.1265,17.89,Healthcare
+AJG,-0.0434,17.35,Financial
+AMP,-0.2048,18.24,Financial
+LH,0.0059,17.04,Healthcare
+FRC,-0.1716,18.32,Financial
+GLW,-0.2655,17.75,Technology
+TTWO,0.1477,14.99,Communication Services
+AKAM,0.1625,16.65,Technology
+TFX,-0.0351,16.53,Healthcare
+LEN,0.0771,16.87,Consumer Cyclical
+NTRS,-0.3046,16.96,Financial
+CAG,-0.0456,16.42,Consumer Defensive
+CTXS,0.2357,16.26,Technology
+CMS,-0.1154,16.43,Utilities
+CDW,-0.2597,15.77,Technology
+LYB,-0.3605,16.51,Basic Materials
+K,-0.1022,16.28,Consumer Defensive
+MXIM,-0.0876,15.28,Technology
+CAH,0.0595,15.92,Healthcare
+ESS,-0.2142,16.27,Real Estate
+LUV,-0.4652,17.16,Industrials
+AMCR,-0.1144,16.23,Consumer Cyclical
+PXD,-0.3894,15.35,Energy
+CARR,0.5875,15.94,Industrials
+DGX,0.0566,15.68,Healthcare
+OKE,-0.5216,15.33,Energy
+ODFL,0.2551,15.82,Industrials
+KSU,-0.0386,15.10,Industrials
+DPZ,0.2666,14.18,Consumer Cyclical
+COO,-0.1054,15.52,Healthcare
+JKHY,0.2832,13.55,Technology
+HOLX,0.0023,13.99,Healthcare
+WY,-0.345,15.88,Real Estate
+ABC,0.0955,14.21,Healthcare
+IFF,0.0031,14.34,Basic Materials
+BR,-0.0545,13.63,Technology
+EVRG,-0.0782,14.23,Utilities
+PAYC,0.0173,14.07,Technology
+TIF,-0.0642,13.70,Consumer Cyclical
+STE,0.0332,13.83,Healthcare
+VMC,-0.3066,14.57,Basic Materials
+OXY,-0.6571,12.17,Energy
+HRL,0.0403,13.33,Consumer Defensive
+CBRE,-0.3425,14.75,Real Estate
+HPE,-0.4218,12.42,Technology
+DOV,-0.2212,14.09,Industrials
+FCX,-0.3338,13.18,Basic Materials
+LDOS,0.0314,13.90,Technology
+NDAQ,0.0769,13.37,Financial
+DAL,-0.612,14.75,Industrials
+MAS,-0.0661,13.32,Industrials
+ZBRA,-0.0466,13.92,Technology
+IP,-0.2912,13.79,Consumer Cyclical
+GWW,-0.1347,13.51,Industrials
+KMX,-0.0698,14.59,Consumer Cyclical
+DFS,-0.5229,15.53,Financial
+TSCO,0.197,14.07,Consumer Cyclical
+MTB,-0.4225,14.42,Financial
+MAA,-0.1333,13.34,Real Estate
+HIG,-0.3913,14.13,Financial
+FITB,-0.4271,14.32,Financial
+WDC,-0.3317,12.77,Technology
+BF-B,-0.0417,12.01,Consumer Defensive
+SJM,0.0425,12.62,Consumer Defensive
+EXPD,-0.0764,12.87,Industrials
+NUE,-0.2985,12.96,Basic Materials
+HES,-0.295,12.54,Energy
+ULTA,-0.1285,13.94,Consumer Cyclical
+ANET,0.0824,12.13,Technology
+VTR,-0.4162,13.57,Real Estate
+GRMN,-0.1402,13.14,Technology
+FMC,-0.0653,12.67,Basic Materials
+DRE,-0.0401,12.83,Real Estate
+QRVO,-0.1264,11.72,Technology
+STX,-0.1435,11.89,Technology
+WAT,-0.201,12.78,Healthcare
+NLOK,0.4967,11.91,Technology
+ATO,-0.121,12.16,Utilities
+PEAK,-0.2878,12.57,Real Estate
+BXP,-0.4341,12.63,Real Estate
+CXO,-0.3625,10.97,Energy
+OMC,-0.3609,12.00,Communication Services
+IEX,-0.1253,11.76,Industrials
+EXR,-0.1836,12.60,Real Estate
+GPC,-0.2731,12.26,Consumer Cyclical
+LNT,-0.1524,11.76,Utilities
+CBOE,-0.1724,11.42,Financial
+MLM,-0.3574,12.29,Basic Materials
+XYL,-0.2103,12.18,Industrials
+EXPE,-0.2792,10.89,Consumer Cyclical
+VAR,-0.1873,11.27,Healthcare
+NVR,-0.1771,11.23,Consumer Cyclical
+UDR,-0.2231,11.26,Real Estate
+CHRW,-0.0044,10.92,Industrials
+KEY,-0.4694,11.92,Financial
+VIAC,-0.5332,11.39,Communication Services
+WAB,-0.2699,11.20,Industrials
+NTAP,-0.2822,10.10,Technology
+HAL,-0.5264,10.65,Energy
+IT,-0.2368,10.81,Technology
+CE,-0.3057,11.17,Basic Materials
+J,-0.1417,11.43,Industrials
+PKI,-0.038,10.96,Healthcare
+SYF,-0.5043,12.00,Financial
+BKR,-0.4101,10.65,Energy
+SIVB,-0.2452,11.15,Financial
+IR,-0.2219,9.92,Industrials
+FOXA,-0.2501,10.15,Communication Services
+RF,-0.4202,11.12,Financial
+URI,-0.2171,10.36,Industrials
+ETFC,-0.0928,10.34,Financial
+DRI,-0.3062,9.67,Consumer Cyclical
+CTL,-0.2566,9.75,Communication Services
+CFG,-0.476,10.74,Financial
+AAP,-0.1666,9.60,Consumer Cyclical
+XRAY,-0.2536,10.44,Healthcare
+PFG,-0.3285,10.54,Financial
+ALLE,-0.2429,9.34,Industrials
+NRG,-0.1014,9.22,Utilities
+JBHT,-0.0712,10.16,Industrials
+EMN,-0.1741,9.36,Basic Materials
+AVY,-0.1863,9.36,Industrials
+ABMD,0.2085,9.76,Healthcare
+PKG,-0.1697,9.58,Consumer Cyclical
+HAS,-0.3685,9.37,Consumer Cyclical
+MGM,-0.5221,8.86,Consumer Cyclical
+HSIC,-0.15,9.00,Healthcare
+AES,-0.3849,8.50,Utilities
+NI,-0.1706,8.89,Utilities
+HBAN,-0.4632,9.45,Financial
+FBHS,-0.0735,8.54,Consumer Cyclical
+CNP,-0.3795,8.98,Utilities
+UHS,-0.2739,8.60,Healthcare
+FFIV,-0.0168,8.49,Technology
+MYL,-0.2219,8.86,Healthcare
+WYNN,-0.4365,8.01,Consumer Cyclical
+HST,-0.3946,8.64,Real Estate
+L,-0.3921,8.65,Financial
+LW,-0.3349,8.70,Consumer Defensive
+PNW,-0.192,8.62,Utilities
+RJF,-0.2711,8.74,Financial
+CPB,-0.0217,8.35,Consumer Defensive
+CINF,-0.4549,9.18,Financial
+WU,-0.2901,8.53,Financial
+PHM,-0.1415,8.75,Consumer Cyclical
+RE,-0.257,8.21,Financial
+JNPR,-0.0597,7.95,Technology
+LKQ,-0.2903,8.54,Consumer Cyclical
+WRB,-0.1831,8.42,Financial
+COG,0.0856,7.89,Energy
+PRGO,0.0507,7.49,Healthcare
+WHR,-0.1886,7.62,Consumer Cyclical
+SNA,-0.2392,7.33,Industrials
+GL,-0.3108,7.74,Financial
+ALB,-0.0675,8.10,Basic Materials
+HII,-0.2715,8.20,Industrials
+DVA,0.0237,7.12,Healthcare
+DISH,-0.1666,7.97,Communication Services
+LNC,-0.4069,7.78,Financial
+FANG,-0.5376,6.92,Energy
+TAP,-0.3167,7.17,Consumer Defensive
+RCL,-0.6769,8.83,Consumer Cyclical
+REG,-0.346,7.45,Real Estate
+IRM,-0.2416,7.34,Real Estate
+LYV,-0.3495,6.92,Communication Services
+WRK,-0.4092,7.39,Consumer Cyclical
+IPG,-0.2866,6.72,Communication Services
+DISCK,-0.3977,6.69,Communication Services
+TXT,-0.3966,7.14,Industrials
+AIZ,-0.2267,6.27,Financial
+FLIR,-0.1346,6.01,Technology
+BWA,-0.3121,6.59,Consumer Cyclical
+PNR,-0.2047,6.61,Industrials
+CF,-0.4221,6.38,Basic Materials
+AOS,-0.1138,6.45,Industrials
+VNO,-0.4865,6.00,Real Estate
+RHI,-0.2492,6.05,Industrials
+IPGP,0.086,5.39,Technology
+CCL,-0.7155,6.29,Consumer Cyclical
+FRT,-0.3903,5.61,Real Estate
+ROL,0.168,5.64,Consumer Cyclical
+UAL,-0.7117,6.27,Industrials
+AIV,-0.3049,5.53,Real Estate
+ZION,-0.4185,5.81,Financial
+BEN,-0.3114,5.34,Financial
+PBCT,-0.3574,5.18,Financial
+MHK,-0.3891,5.58,Consumer Cyclical
+NOV,-0.5174,4.94,Energy
+HWM,-0.0629,5.14,Industrials
+NWL,-0.3351,5.16,Consumer Defensive
+PWR,-0.1587,5.20,Industrials
+DVN,-0.5325,4.52,Energy
+HFC,-0.3993,4.67,Energy
+CMA,-0.5449,5.42,Financial
+MRO,-0.5663,4.58,Energy
+NLSN,-0.3305,5.12,Industrials
+SEE,-0.2518,5.02,Consumer Cyclical
+NBL,-0.5934,4.58,Energy
+KIM,-0.4529,4.86,Real Estate
+APA,-0.5244,4.44,Energy
+DXC,-0.5882,4.24,Technology
+FOX,-0.2481,4.58,Communication Services
+NWSA,-0.1853,4.44,Communication Services
+MOS,-0.4658,4.25,Basic Materials
+AAL,-0.6618,4.34,Industrials
+LEG,-0.41,4.15,Consumer Cyclical
+ALK,-0.5421,4.24,Industrials
+TPR,-0.4816,3.87,Consumer Cyclical
+HOG,-0.3444,3.61,Consumer Cyclical
+RL,-0.3786,3.98,Consumer Cyclical
+HBI,-0.3542,3.70,Consumer Cyclical
+HRB,-0.2785,3.37,Consumer Cyclical
+DISCA,-0.3801,3.45,Communication Services
+XRX,-0.5395,3.12,Technology
+FLS,-0.4937,3.43,Industrials
+FTI,-0.6637,3.23,Energy
+SLG,-0.5992,3.62,Real Estate
+PVH,-0.5801,3.67,Consumer Cyclical
+UNM,-0.4955,3.32,Financial
+NCLH,-0.762,3.47,Consumer Cyclical
+IVZ,-0.5957,3.03,Financial
+LB,-0.1678,3.65,Consumer Cyclical
+KSS,-0.6569,3.20,Consumer Cyclical
+ADS,-0.6252,2.01,Financial
+JWN,-0.6174,1.90,Consumer Cyclical
+GPS,-0.5356,2.06,Consumer Cyclical
+UAA,-0.6139,1.64,Consumer Cyclical
+UA,-0.6152,1.57,Consumer Cyclical
+NWS,-0.1985,1.48,Communication Services
+COTY,-0.6667,1.26,Consumer Defensive
