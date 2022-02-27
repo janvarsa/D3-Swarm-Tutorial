@@ -1,5 +1,7 @@
-<!-- Code for D3 Swarm Plot tutorial from 
-https://www.chartfleau.com/tutorials/d3swarm -->
+<!-- Source code and data for the swarm plot tutorial at https://www.chartfleau.com/tutorials/d3swarm
+This code introduces the concept of a D3 force simulation to lay out elements on a chart. 
+A video lesson walking through a more advanced project, including fluid animation of time series data, 
+is now available from Gumroad: https://chartfleau.gumroad.com/l/masterclass -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,6 +16,7 @@ https://www.chartfleau.com/tutorials/d3swarm -->
 <script>
   const width = 1920;
   const height = 1080;
+  const margin = [50, 60, 50, 100];
 
   let svg = d3
     .select("body")
@@ -23,19 +26,20 @@ https://www.chartfleau.com/tutorials/d3swarm -->
 
   d3.csv("data.csv").then((data) => {
     let sectors = Array.from(new Set(data.map((d) => d.Sector)));
-    let xCoords = sectors.map((d, i) => 150 + i * 150);
-    let xScale = d3.scaleOrdinal().domain(sectors).range(xCoords);
+    let xScale = d3
+      .scaleBand()
+      .domain(sectors)
+      .range([margin[3], width - margin[1]]);
 
     let yScale = d3
       .scaleLinear()
       .domain(d3.extent(data.map((d) => +d["Return"])))
-      .range([height - 50, 50]);
+      .range([height - margin[2], margin[0]]);
 
     let color = d3.scaleOrdinal().domain(sectors).range(d3.schemePaired);
 
-    let marketcapDomain = d3.extent(data.map((d) => d["Market Cap"]));
-    marketcapDomain = marketcapDomain.map((d) => Math.sqrt(d));
-    let size = d3.scaleLinear().domain(marketcapDomain).range([5, 30]);
+    let marketcapDomain = d3.extent(data.map((d) => +d["Market Cap"]));
+    let size = d3.scaleSqrt().domain(marketcapDomain).range([3, 40]);
 
     svg
       .selectAll(".circ")
@@ -45,7 +49,7 @@ https://www.chartfleau.com/tutorials/d3swarm -->
       .attr("class", "circ")
       .attr("stroke", "black")
       .attr("fill", (d) => color(d.Sector))
-      .attr("r", (d) => size(Math.sqrt(d["Market Cap"])))
+      .attr("r", (d) => size(d["Market Cap"]))
       .attr("cx", (d) => xScale(d.Sector))
       .attr("cy", (d) => yScale(d.Return));
 
@@ -70,7 +74,7 @@ https://www.chartfleau.com/tutorials/d3swarm -->
       .force(
         "collide",
         d3.forceCollide((d) => {
-          return size(Math.sqrt(d["Market Cap"]));
+          return size(d["Market Cap"]);
         })
       )
       .alphaDecay(0)
@@ -79,9 +83,7 @@ https://www.chartfleau.com/tutorials/d3swarm -->
 
     function tick() {
       d3.selectAll(".circ")
-        .attr("cx", (d) => {
-          return d.x;
-        })
+        .attr("cx", (d) => d.x)
         .attr("cy", (d) => d.y);
     }
 
