@@ -4,4 +4,4 @@ Source code and data for the swarm plot tutorial at https://www.chartfleau.com/t
 
 A video lesson walking through a more advanced project, including fluid animation of time series data, is now available from Gumroad: https://chartfleau.gumroad.com/l/masterclass.
 
-Subscribe at https://www.chartfleau.com for a $20 discount code.
+Subscribe to the mailing list at https://www.chartfleau.com/blog for a $20 discount code.
