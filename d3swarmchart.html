@@ -41,17 +41,27 @@ is now available from Gumroad: https://chartfleau.gumroad.com/l/masterclass -->
     let marketcapDomain = d3.extent(data.map((d) => +d["Market Cap"]));
     let size = d3.scaleSqrt().domain(marketcapDomain).range([3, 40]);
 
-    svg
-      .selectAll(".circ")
+    bubbles = svg
+      .selectAll(".bubble")
       .data(data)
       .enter()
+      .append("g")
+      .classed("bubble", true);
+
+    circles = bubbles
       .append("circle")
-      .attr("class", "circ")
-      .attr("stroke", "black")
-      .attr("fill", (d) => color(d.Sector))
       .attr("r", (d) => size(d["Market Cap"]))
+      .attr("stroke", "black")
       .attr("cx", (d) => xScale(d.Sector))
-      .attr("cy", (d) => yScale(d.Return));
+      .attr("cy", (d) => yScale(d.Return))
+      .attr("fill", (d) => color(d.Sector));
+
+    texts = bubbles
+      .append("text")
+      .text((d) => d.Ticker)
+      .style("font-size", (d) => size(d["Market Cap"]) / 2)
+      .attr("text-anchor", "middle")
+      .attr("alignment-baseline", "middle");
 
     let simulation = d3
       .forceSimulation(data)
@@ -82,7 +92,10 @@ is now available from Gumroad: https://chartfleau.gumroad.com/l/masterclass -->
       .on("tick", tick);
 
     function tick() {
-      d3.selectAll(".circ")
+      d3.selectAll("text")
+        .attr("x", (d) => d.x)
+        .attr("y", (d) => d.y);
+      d3.selectAll("circle")
         .attr("cx", (d) => d.x)
         .attr("cy", (d) => d.y);
     }
