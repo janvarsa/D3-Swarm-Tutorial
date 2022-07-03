@@ -1,8 +1,3 @@
-<!-- Source code and data for the swarm plot tutorial at https://www.chartfleau.com/tutorials/d3swarm
-This code introduces the concept of a D3 force simulation to lay out elements on a chart. 
-A video lesson walking through a more advanced project, including fluid animation of time series data, 
-is now available from Gumroad: https://chartfleau.gumroad.com/l/masterclass -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,13 +11,7 @@ is now available from Gumroad: https://chartfleau.gumroad.com/l/masterclass -->
 <script>
   const width = 1920;
   const height = 1080;
-  const margin = [50, 60, 50, 100];
-
-  let svg = d3
-    .select("body")
-    .append("svg")
-    .attr("height", height)
-    .attr("width", width);
+  const margin = [50, 60, 25, 200];
 
   d3.csv("data.csv").then((data) => {
     let sectors = Array.from(new Set(data.map((d) => d.Sector)));
@@ -40,6 +29,44 @@ is now available from Gumroad: https://chartfleau.gumroad.com/l/masterclass -->
 
     let marketcapDomain = d3.extent(data.map((d) => +d["Market Cap"]));
     let size = d3.scaleSqrt().domain(marketcapDomain).range([3, 40]);
+    
+    let svg = d3
+      .select("body")
+      .append("svg")
+      .attr("height", height)
+      .attr("width", width);
+
+      svg
+        .append("g")
+        .attr("transform", "translate(-75,0)")
+        .call(d3.axisBottom(xScale).tickSize(0))
+        .call(g => g.select(".domain").remove())
+        .selectAll("text")
+          .attr("transform", "translate(0,15)")
+          .style("font-size", 18);
+        
+      svg
+        .append("g")
+        .attr("transform", "translate(50,0)")
+        .call(d3.axisLeft(yScale).tickSize(0))
+        .selectAll("text")
+          .attr("transform", "translate(-10,0)")
+          .style("font-size", 18);
+
+      svg
+        .append("g")
+        .attr("transform", "translate(1870,0)")
+        .call(d3.axisLeft(yScale).tickSize(0))
+        .selectAll("text")
+          .style("font-size", 0);
+
+      svg
+        .append("g")
+        .attr("transform", "translate(50,0)")
+        .call(d3.axisLeft()
+          .scale(yScale)
+          .tickSize(-width+100)
+          .tickFormat(""));
 
     bubbles = svg
       .selectAll(".bubble")
