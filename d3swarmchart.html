@@ -21,14 +21,14 @@
       .range([margin[3], width - margin[1]]);
 
     let yScale = d3
-      .scaleLinear()
+    .scaleLinear()
       .domain(d3.extent(data.map((d) => +d["Return"])))
       .range([height - margin[2], margin[0]]);
-
+      
     let color = d3.scaleOrdinal().domain(sectors).range(d3.schemePaired);
 
     let marketcapDomain = d3.extent(data.map((d) => +d["Market Cap"]));
-    let size = d3.scaleSqrt().domain(marketcapDomain).range([3, 40]);
+    let size = d3.scaleSqrt().domain(marketcapDomain).range([15, 50]);
     
     let svg = d3
       .select("body")
@@ -42,7 +42,7 @@
         .call(d3.axisBottom(xScale).tickSize(0))
         .call(g => g.select(".domain").remove())
         .selectAll("text")
-          .attr("transform", "translate(0,15)")
+          .attr("transform", "translate(-15,15)")
           .style("font-size", 18);
         
       svg
@@ -86,7 +86,7 @@
     texts = bubbles
       .append("text")
       .text((d) => d.Ticker)
-      .style("font-size", (d) => size(d["Market Cap"]) / 2)
+      .style("font-size", (d) => size(d["Market Cap"]) / 1.5)
       .attr("text-anchor", "middle")
       .attr("alignment-baseline", "middle");
 
