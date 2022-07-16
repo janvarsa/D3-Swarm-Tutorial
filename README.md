@@ -1,7 +1,9 @@
-# D3-Swarm-Tutorial
+# D3-swarm
 
-Source code and data for the swarm plot tutorial at https://www.chartfleau.com/tutorials/d3swarm. This code introduces the concept of a D3 force simulation to lay out elements on a chart.
+Simple swarm plot inspired by [this post](https://www.reddit.com/r/dataisbeautiful/comments/vp04dv/oc_the_worst_first_half_for_the_stock_market_in/) on r/dataisbeautiful leveraging [d3.forceSimulation](https://github.com/d3/d3-force). 
 
-A video lesson walking through a more advanced project, including fluid animation of time series data, is now available from Gumroad: https://chartfleau.gumroad.com/l/masterclass.
+---
 
-Subscribe to the mailing list at https://www.chartfleau.com/blog for a $20 discount code.
+## Example:
+
+![Example](example.png)
